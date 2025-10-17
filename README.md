@@ -96,11 +96,11 @@ python experiments/run_gsm8k.py --mode FullConnected --agent_names MathSolver --
 <details on>
 <summary>HumanEval</summary>
 
-To run the baseline on HumanEval under the 3-agent setting with Llama-3.1-8B-Instruct, the script is:
+To run the baseline on HumanEval under the 3-agent setting with Qwen2.5-Coder-7B-Instruct, the script is:
 ```bash
 python experiments/run_humaneval.py --mode FullConnected --agent_names CodeWriting --agent_nums 3 --llm_name Qwen/Qwen2.5-Coder-7B-Instruct --output_dir ./runs/humaneval_default --execution_mode default
 ```
-To run the KVCOMM method on HumanEval under the 3-agent setting with Llama-3.1-8B-Instruct, the script is:
+To run the KVCOMM method on HumanEval under the 3-agent setting with Qwen2.5-Coder-7B-Instruct, the script is:
 ```bash
 python experiments/run_humaneval.py --mode FullConnected --agent_names CodeWriting --agent_nums 3 --llm_name Qwen/Qwen2.5-Coder-7B-Instruct --output_dir ./runs/humaneval_kvcomm --execution_mode allow_kv_reuse --kv-threshold 0.3 --kv-max-anchor-num 20 --kv-window-size 5
 ```
