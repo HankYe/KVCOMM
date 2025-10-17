@@ -88,7 +88,7 @@ To run the baseline on GSM8K under the 3-agent setting with Llama-3.1-8B-Instruc
 ```bash
 python experiments/run_gsm8k.py --mode FullConnected --agent_names MathSolver --agent_nums 3 --llm_name meta-llama/Llama-3.1-8B-Instruct --output_dir ./runs/gsm8k_default --execution_mode default
 ```
-To run the KVCOMM method on MMLU under the 3-agent setting with Llama-3.1-8B-Instruct, the script is:
+To run the KVCOMM method on GSM8K under the 3-agent setting with Llama-3.1-8B-Instruct, the script is:
 ```bash
 python experiments/run_gsm8k.py --mode FullConnected --agent_names MathSolver --agent_nums 3 --llm_name meta-llama/Llama-3.1-8B-Instruct --output_dir ./runs/gsm8k_kvcomm --execution_mode allow_kv_reuse --kv-threshold 0.3 --kv-max-anchor-num 20 --kv-window-size 5
 ```
