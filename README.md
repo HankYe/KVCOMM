@@ -42,9 +42,9 @@ KVCOMM offers the following insights:
 <p>
 
 And further proposes an anchor-based KV-cache Communication Module, which contains:
-> - **Anchor Matching**: locates the nearest anchors for the requested segment (See [kvcomm_engine.py:KVCOMMEngine._select_anchor_indices](https://github.com/HankYe/KVCOMM/KVCOMM/llm/kvcomm_engine.py#L806)).
-> - **Offset Approximation**: predicts the offset by weighting the anchors' stored deviations (See [kvcomm_engine.py:KVCOMMEngine.offset_kv_cache_pair](https://github.com/HankYe/KVCOMM/KVCOMM/llm/kvcomm_engine.py#L868)).
-> - **Anchor Prediction**: determines whether newly-generated KV-caches, e.g., responses, user inputs, etc., could be shared or treated as new anchor (See [kvcomm_engine.py:KVCOMMEngine.predict_as_anchor](https://github.com/HankYe/KVCOMM/KVCOMM/llm/kvcomm_engine.py#L991)).
+> - **Anchor Matching**: locates the nearest anchors for the requested segment (See [kvcomm_engine.py:KVCOMMEngine._select_anchor_indices](https://github.com/HankYe/KVCOMM/blob/main/KVCOMM/llm/kvcomm_engine.py#L806)).
+> - **Offset Approximation**: predicts the offset by weighting the anchors' stored deviations (See [kvcomm_engine.py:KVCOMMEngine.offset_kv_cache_pair](https://github.com/HankYe/KVCOMM/blob/main/KVCOMM/llm/kvcomm_engine.py#L868)).
+> - **Anchor Prediction**: determines whether newly-generated KV-caches, e.g., responses, user inputs, etc., could be shared or treated as new anchor (See [kvcomm_engine.py:KVCOMMEngine.predict_as_anchor](https://github.com/HankYe/KVCOMM/blob/main/KVCOMM/llm/kvcomm_engine.py#L991)).
 
 ## Installation
 ```bash
