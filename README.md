@@ -4,6 +4,11 @@
 
 <div align="center">
 <h1 style="text-align: center; font-size: 2.5rem; font-weight: bolders">
+📣📣This repository is archived. Please refer to https://github.com/FastMAS/KVCOMM for the up-to-date progress.
+</h1>
+</div>
+<div align="center">
+<h1 style="text-align: center; font-size: 2.5rem; font-weight: bolders">
 KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems
 </h1>
 </div>
